@@ -3,7 +3,6 @@
 #
 
 # RIL
-rild.libargs=-d /dev/smd0
 ro.telephony.get_imsi_from_sim=true
 persist.rild.nitz_plmn=
 persist.rild.nitz_long_ons_0=
@@ -32,4 +31,3 @@ DEVICE_PROVISIONED=1
 ro.cdma.homesystem=64,65,76,77,78,79,80,81,82,83
 ro.ril.force_eri_from_xml=true
 ro.telephony.get_imsi_from_sim=true
-ro.telephony.ril_class=VS980RIL
